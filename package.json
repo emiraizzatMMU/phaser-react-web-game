@@ -51,6 +51,9 @@
     "js-base64": "^3.6.2",
     "phaser": "^3.17.0",
     "react-redux": "^7.0.2",
-    "style-loader": "^2.0.0"
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0",
+    "style-loader": "^2.0.0",
+    "ws": "^8.2.3"
   }
 }

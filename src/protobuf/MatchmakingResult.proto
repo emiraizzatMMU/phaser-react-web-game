@@ -1,0 +1,10 @@
+syntax = "proto3";
+package sdk;
+option java_package = "com.gameconomy.protobuf";
+option java_outer_classname = "MatchmakingResultProtos";
+message MatchmakingResult {
+string sessionId = 1;
+string status = 2;
+bool isHost = 3;
+repeated string allPlayerIds = 4;
+}

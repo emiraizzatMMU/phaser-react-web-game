@@ -1,0 +1,20 @@
+syntax = "proto3";
+package sdk;
+option java_package = "com.gameconomy.protobuf";
+option java_outer_classname = "MatchmakingRequestProtos";
+message MatchmakingRequest {
+int64 numberOfPlayerEachSide = 1;
+int64 numberOfPlayerTotal = 2;
+string matchType = 3;
+string uuid = 4;
+int64 scoreUpper = 5;
+int64 scoreLower = 6;
+string playerId = 7;
+string groupId = 8;
+string inviteePlayerId = 9;
+string requestorPlayerId = 10;
+bool joinParty = 11;
+bool joinMatch = 12;
+string sessionId = 13;
+repeated string partyPlayerIds = 14;
+}
